@@ -98,7 +98,7 @@
           top_space = $('#header').outerHeight() - 8;
 
           if (! $('#header').hasClass('header-scrolled')) {
-            top_space = top_space - 30;
+            top_space = top_space - 20;
           }
         }
 
