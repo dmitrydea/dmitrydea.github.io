@@ -95,15 +95,15 @@
         var top_space = 0;
 
         if ($('#header').length) {
-          top_space = $('#header').outerHeight();
+          top_space = $('#header').outerHeight() - 15;
 
           if (! $('#header').hasClass('header-scrolled')) {
-            top_space = top_space - 20;
+            top_space = top_space - 30;
           }
         }
 
         $('html, body').animate({
-          scrollTop: target.offset().top - top_space
+          scrollTop: target.offset().top - top_space + 30
         }, 1500, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu').length) {
