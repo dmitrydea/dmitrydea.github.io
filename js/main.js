@@ -103,7 +103,7 @@
         }
 
         $('html, body').animate({
-          scrollTop: target.offset().top - top_space + 30
+          scrollTop: target.offset().top - top_space + 25
         }, 1500, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu').length) {
