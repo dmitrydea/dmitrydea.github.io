@@ -133,7 +133,7 @@
       var top = $(this).offset().top - main_nav_height,
           bottom = top + $(this).outerHeight();
   
-      if (cur_pos >= top + 60 && cur_pos <= bottom) {
+      if (cur_pos >= top - 60 && cur_pos <= bottom) {
         main_nav.find('li').removeClass('menu-active menu-item-active');
         main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('menu-active menu-item-active');
       }
