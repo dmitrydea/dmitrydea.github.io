@@ -45,6 +45,63 @@ h6 {
   padding: 0;
 }
 
+.img-blocks {
+  height: 230px;
+  margin-bottom: 10px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr{background-color: #f2f2f2;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(156, 136, 109, 1);
+  color: white;
+}
+
+.image-margins {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .img-blocks {
+    height: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-blocks {
+    height: 150px;
+    width: 32%;
+  }
+}
+
+@media (max-width: 523px) {
+  .img-blocks {
+    height: 100px;
+  }
+}
+
+@media (max-width: 387px) {
+  .img-blocks {
+    width: 40%;
+  }
+}
+
 /* Back to top button */
 
 .back-to-top {
@@ -132,6 +189,7 @@ h6 {
 
 #header {
   padding: 30px 0;
+  background: rgba(156, 136, 109, 0.9);
   height: 127px;
   position: fixed;
   left: 0;
@@ -413,7 +471,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #9B876C;
+  color: #000;
 }
 
 .header-scrolled .nav-menu li:hover > a,
@@ -681,9 +739,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 40px 0;
+  background: url(../img/backgrad.png) fixed center center;
+  background-repeat: repeat;
+  padding: 160px 0 40px 0;
   position: relative;
 }
 
@@ -694,7 +752,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(219, 219, 219, 0.92);
   z-index: 9;
 }
 
@@ -1305,15 +1362,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   margin-bottom: 10px;
   color: #9B876C;
-}
-
-.portfolio-wrap figure img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover;
-  -o-object-fit: cover;
-  -moz-object-fit: cover;
-  -webkit-object-fit: cover;
 }
 
 #contact .contact-info address,

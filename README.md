@@ -1,2 +1,0 @@
-# dmitrydea.github.io
-host
