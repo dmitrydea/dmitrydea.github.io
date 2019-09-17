@@ -1316,6 +1316,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-object-fit: cover;
 }
 
+.img-about-block {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover;
+  -o-object-fit: cover;
+  -moz-object-fit: cover;
+  -webkit-object-fit: cover;
+}
+
+
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
