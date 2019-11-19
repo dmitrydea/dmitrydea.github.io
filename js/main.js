@@ -95,15 +95,15 @@
         var top_space = 0;
 
         if ($('#header').length) {
-          top_space = $('#header').outerHeight() - 30;
+          top_space = $('#header').outerHeight();
 
           if (! $('#header').hasClass('header-scrolled')) {
-            top_space = top_space - 15;
+            top_space = top_space - 20;
           }
         }
 
         $('html, body').animate({
-          scrollTop: target.offset().top - top_space + 15
+          scrollTop: target.offset().top - top_space
         }, 1500, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu').length) {
@@ -133,7 +133,7 @@
       var top = $(this).offset().top - main_nav_height,
           bottom = top + $(this).outerHeight();
   
-      if (cur_pos >= top - 30 && cur_pos <= bottom) {
+      if (cur_pos >= top && cur_pos <= bottom) {
         main_nav.find('li').removeClass('menu-active menu-item-active');
         main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('menu-active menu-item-active');
       }
