@@ -340,7 +340,6 @@ body .is-layout-flex>* {
 	left: 15px;
 	top: 10px;
 	z-index: 99;
-	line-height: 80px;
 }
 
 .language-select a img {
@@ -353,12 +352,22 @@ body .is-layout-flex>* {
 }
 .language-select a.active {
 	padding-bottom: 6px;
-	border-radius: 50%;
+	
 	border-bottom: 3px solid #00e4ff !important;
 }
 
 .language-select a.active-black {
 	padding-bottom: 6px;
-	border-radius: 50%;
+	
 	border-bottom: 3px solid #000 !important;
+}
+
+.language-select-text a {
+	border-radius: 0 !important;
+	color: #00e4ff !important;
+}
+
+.language-select-text-dark a {
+	border-radius: 0 !important;
+	color: #000 !important;
 }
