@@ -8,12 +8,12 @@
             var $number = $(this),
                 data = $number.data();
 
-            var decimalDigits = data.toValue.toString().match(/\.(.*)/);
+            var decimalDigits = data.tovalue.toString().match(/\.(.*)/);
 
             if (decimalDigits) {
                 data.rounding = decimalDigits[1].length;
             }
-
+            data["toValue"] = data.tovalue;
             $number.numerator(data);
         }, {
             offset: '120%',

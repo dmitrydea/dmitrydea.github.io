@@ -371,3 +371,11 @@ body .is-layout-flex>* {
 	border-radius: 0 !important;
 	color: #000 !important;
 }
+
+#section-pricing {
+	background-image:url("../images/h31-bg-section-02.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;
+}
+
+.slick-slide p {
+	margin-bottom: 0 !important;
+}
