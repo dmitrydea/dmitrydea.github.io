@@ -352,7 +352,7 @@ body .is-layout-flex>* {
 }
 .language-select a.active {
 	padding-bottom: 6px;
-	
+	border-radius: 50%;
 	border-bottom: 3px solid #00e4ff !important;
 }
 
@@ -376,6 +376,18 @@ body .is-layout-flex>* {
 	background-image:url("../images/h31-bg-section-02.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;
 }
 
+#section-about {
+	background-image:url("../images/h5-bg-map.png");background-position:center center;background-repeat:no-repeat;background-size:cover;
+}
+
 .slick-slide p {
 	margin-bottom: 0 !important;
+}
+
+.ct-newsletter-popup {
+	z-index: 999999 !important;
+}
+
+form .tnp-field {
+	margin-bottom: 10px !important;
 }
