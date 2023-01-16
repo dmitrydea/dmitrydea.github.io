@@ -391,3 +391,45 @@ body .is-layout-flex>* {
 form .tnp-field {
 	margin-bottom: 10px !important;
 }
+
+.vaucher {
+	position: relative;
+	width: 100%;
+	background-image: url(../images/bg-page-title.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.vaucher .overlay-vaucher {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.vaucher .content-vaucher {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	text-align: center;
+}
+
+.vaucher .content-vaucher > div {
+	display: inline;
+}
+
+.vaucher .content-vaucher > p {
+	color: #fff;
+	font-size: 20px;
+}
