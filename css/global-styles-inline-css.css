@@ -395,11 +395,15 @@ form .tnp-field {
 .vaucher {
 	position: relative;
 	width: 100%;
-	background-image: url(../images/bg-page-title.jpg);
+	background-image: url(../images/gift1.PNG);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
+}
+
+.vaucher2 {
+	background-image: url(../images/gift2.PNG) !important;
 }
 
 .vaucher .overlay-vaucher {
@@ -408,21 +412,42 @@ form .tnp-field {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	/*background-color: rgba(0, 0, 0, 0.5);*/
 	z-index: 1;
 }
 
-.vaucher .content-vaucher {
+.vaucher .content-vaucher.content-vaucher-text {
 	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
+	top: 10px;
 	left: 0;
 	width: 100%;
 	z-index: 2;
 	text-align: center;
+}
+
+.vaucher2 .content-vaucher.content-vaucher-text {
+	top: 10px !important;
+	left: 10px !important;
+	width:  auto !important;
+	text-align: left !important;
+}
+
+.vaucher .content-vaucher.content-vaucher-button {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 2;
+}
+
+.vaucher2 .content-vaucher.content-vaucher-button {
+	right: 10px ;
+	left: auto !important;
+	bottom: 10px;
+	z-index: 2;
+}
+
+.vaucher .go-happy {
+	padding: 0 15px !important;
 }
 
 .vaucher .content-vaucher > div {
