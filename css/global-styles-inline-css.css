@@ -570,3 +570,15 @@ form .tnp-field {
 .abs-btn .go-connection {
 	margin:  0 auto;
 }
+
+.ct-title-custom1 .item--sub-title.style2::before {
+	background: #D432A7 !important;
+}
+
+.ct-title-custom2 .item--sub-title.style2::before {
+	background: #D432A7 !important;
+}
+
+.social-slider::before {
+	background: #D432A7 !important;
+}
