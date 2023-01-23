@@ -12,6 +12,7 @@
             parent.find(".ct-tabs-title .ct-tab-title").removeClass('active');
             $(this).addClass("active");
             $(target).slideDown(300);
+            
         });
     };
 
