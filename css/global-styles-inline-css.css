@@ -377,7 +377,7 @@ body .is-layout-flex>* {
 }
 
 #section-about {
-	background-image:url("../images/h5-bg-map.png");background-position:center center;background-repeat:no-repeat;background-size:cover;
+	background-image: none !important;
 }
 
 .slick-slide p {
@@ -581,4 +581,16 @@ form .tnp-field {
 
 .social-slider::before {
 	background: #D432A7 !important;
+}
+
+rs-sbg {
+	background-position: right !important;
+}
+
+.content-inner {
+ background-image: 	url("../images/h5-bg-map.png");background-repeat:repeat;
+}
+
+.elementor-20 .elementor-element.elementor-element-7d761a20 > .elementor-background-overlay {
+	background-image: 	url("../images/h5-bg-map.png");background-repeat:repeat;
 }
