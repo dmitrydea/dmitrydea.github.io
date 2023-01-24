@@ -723,7 +723,7 @@ rs-sbg {
 }
 
 .page-concierge .elementor-3491 .elementor-element.elementor-element-40fd8216 {
-	padding: 25px 0px 20px 0px;
+	padding: 25px 0px 0px 0px;
 }
 
 .page-concierge .services-section-custom {
@@ -734,6 +734,25 @@ rs-sbg {
 	padding: 0px 0px 20px 0px;
 }
 
-.partner-link {
-	color: #00e4ff !important;
+.page-concierge .elementor-3491 .elementor-element.elementor-element-e7c34af .ct-heading .item--title {
+	margin-bottom: 10px !important;
+}
+
+.page-concierge .elementor-20 .elementor-element.elementor-element-3e5368e3 {
+	width: 50% !important;
+}
+
+.page-concierge .partner-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 1026px) {
+	.page-concierge .elementor-20 .elementor-element.elementor-element-3e5368e3 {
+		width: 100% !important;
+	}
+	.page-concierge .elementor-20 .elementor-element.elementor-element-9cec274 {
+		text-align: center;
+	}
 }
