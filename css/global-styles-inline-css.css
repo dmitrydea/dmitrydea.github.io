@@ -713,3 +713,23 @@ rs-sbg {
 	max-height: 601px;
 	overflow: hidden;
 }
+
+.page-concierge .ct-heading .item--sub-title.style2 {
+	top: -15px !important;
+}
+
+.page-concierge .elementor-3491 .elementor-element.elementor-element-27093372 .ct-heading .item--sub-title {
+	margin-top: 0 !important;
+}
+
+.page-concierge .elementor-3491 .elementor-element.elementor-element-40fd8216 {
+	padding: 25px 0px 20px 0px;
+}
+
+.page-concierge .services-section-custom {
+	margin: 20px 0 20px 0;
+}
+
+.page-concierge .elementor-3491 .elementor-element.elementor-element-bd79acf {
+	padding: 0px 0px 20px 0px;
+}
