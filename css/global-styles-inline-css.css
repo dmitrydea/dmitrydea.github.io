@@ -595,6 +595,14 @@ rs-sbg {
  background-image: 	url("../images/h5-bg-map.png");background-repeat:repeat;
 }
 
+.withoutbg .content-inner {
+	background-image: 	none !important;
+   }
+
+.withoutbg .elementor-20 .elementor-element.elementor-element-7d761a20 > .elementor-background-overlay {
+	background-image: none !important;
+}
+
 .elementor-20 .elementor-element.elementor-element-7d761a20 > .elementor-background-overlay {
 	background-image: 	url("../images/h5-bg-map.png");background-repeat:repeat;
 }
