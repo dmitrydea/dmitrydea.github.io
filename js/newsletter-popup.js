@@ -20,4 +20,12 @@ jQuery(document).ready(function(){
   jQuery('#ct-happy-popup .ct-newsletter-close, #ct-happy-popup .ct-newsletter-hide span').click(function(){
     jQuery('#ct-happy-popup').fadeOut();
   });
+  jQuery('[data-fancybox="gallery"]').fancybox({
+    loop: true
+  });
+  jQuery('.grid-item-inner').click(function(e){
+    e.preventDefault();
+    jQuery(this).find("a").click();
+  });
+  //
 }); 
