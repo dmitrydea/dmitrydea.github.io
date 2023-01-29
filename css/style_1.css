@@ -7795,3 +7795,7 @@ footer {
 .gallery-style-one .overlay a:hover {
 	color: #fff !important;
 }
+
+.navbar-toggle i {
+	color: #000 !important;
+}
