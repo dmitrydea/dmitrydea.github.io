@@ -445,6 +445,9 @@ p {
 	#video-present {
 		height: 400px !important;
 	}
+	.PackageText {
+		font-size: 30px !important;
+	}
 }
 
 .bg-cover {
