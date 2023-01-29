@@ -5742,7 +5742,7 @@ ul.counter-list li:nth-child(2) {
 
 .carousel-style-one.swiper .swiper-pagination {
 	position: inherit;
-	margin-bottom: -18px;
+	margin-bottom: -15px;
 	margin-top: 40px;
 }
 
@@ -7871,4 +7871,107 @@ footer {
 
 .footer-item.contact {
 	float: right;
+}
+
+.PackageText {
+	color: #fff !important;
+	-webkit-text-fill-color: #fff !important;
+}
+
+.mask-text {
+	text-transform: none !important;
+	font-size: 80px;
+}
+
+.footer-item .logo {
+	margin-bottom: 0px !important;
+}
+
+.footer-bottom a:hover {
+	color: #fff !important;
+}
+
+.header-phone-custom a:hover {
+	color: #fff !important;
+}
+
+.btn {
+	text-transform: none !important;
+}
+
+.product-produce i {
+	font-size: 40px;
+}
+
+.contact-form-style-one input, .contact-form-style-one textarea {
+	margin-bottom: 0 !important;
+}
+
+.contact-form-style-one .form-group {
+	margin-bottom: 15px !important;
+}
+
+.alert-error {
+	margin-left: 20px !important;
+	color: red !important;
+	font-size: 12px !important;
+	display: none;
+}
+
+.alert-error-input {
+	border: 1px solid red !important;
+}
+
+.alert-notification {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9;
+	text-align: center;
+	margin-top: 0 !important;
+	display: none;
+}
+
+#alert-notification-ok {
+	color: green;
+}
+
+#alert-notification-bad {
+	color: red;
+}
+
+.alert-notification2 {
+	margin-top: 10px !important;
+	font-size: 12px !important;
+	margin-left: 0 !important;
+	padding: 5px 20px !important;
+	background-color: #fff !important;
+	display: none;
+	border-radius: 50px !important;
+}
+
+#alert-notification-ok2 {
+	color: green;
+}
+
+#alert-notification-bad2 {
+	color: red;
+	
+}
+
+.alert-notification i {
+	font-size: 40px !important;
+}
+
+.alert-notification span {
+	font-size: 18px !important
+}
+
+.alert-notification .alert-msg {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
