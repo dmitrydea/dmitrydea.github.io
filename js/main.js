@@ -10,6 +10,18 @@
 
 	$(document).ready(function() {
 
+
+		var player = document.getElementById("video-present");
+		player.addEventListener("ended", function() {
+			player.currentTime = 0;
+			$(".play-button").show();
+		});
+
+		$(".play-video").click(function() {
+			$(".play-button").hide();
+			player.play();
+		});
+
 		$.each($('.is-one-page'), function (index, item) {
             var target = $(item).attr('href');
             var el =  $(target);
