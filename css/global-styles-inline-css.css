@@ -1273,3 +1273,7 @@ footer .elementor-widget-ct_icon .elementor-widget-container {
 	color: lightgray !important;
 }
 
+.ct-newsletter-popup .ct-newsletter-close {
+	z-index: 9 !important;
+}
+
