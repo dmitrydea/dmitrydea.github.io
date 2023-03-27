@@ -19562,10 +19562,12 @@ em {
 
 #bt_section641e824d4e9ce {
     height: 100vh;
+    position: relative;
 }
 
 #bt_section641e824d4e9ce .port {
     position: relative;
+    z-index: 2;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -19590,6 +19592,34 @@ em {
 
 #bt_section641e824d50772 .btnInnerText {
     font-size: 19px !important;
+}
+
+.bgc-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.bgc-video video {
+    width: 100%;
+    height: 100%;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.bgc-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.45;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
