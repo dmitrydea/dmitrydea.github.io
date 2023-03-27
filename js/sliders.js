@@ -61,6 +61,10 @@
 
 	$( document ).ready(function() {
 
+		setTimeout(function() {
+			$('.preloader').fadeOut("slow");
+		}, 800);
+
 		$( '.slidedVariable' ).closest( '.boldSection' ).addClass( 'wVariable' );
 
 		$( '.slided' ).closest( '.port' ).addClass( 'wSlider' );

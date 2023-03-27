@@ -19543,12 +19543,46 @@ em {
 
 /*# sourceMappingURL=style.css.map */
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2c158;
+    z-index: 99999;
+}
+.preloader div {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.preloader div img {
+    max-width: 150px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.preloader div p {
+    color: #132538;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .btStickyHeaderActive .reservation {
     margin-top: 4px !important;
 }
 
 #menu-item-9999 {
-    margin-left: 45px;
+    margin-left: 25px;
 }
 
 .lang-icon {
@@ -19622,11 +19656,96 @@ em {
     z-index: 1;
 }
 
+.bgc-scrolldown {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: 50%;
+    z-index: 1;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.bgc-scrolldown img {
+    width: 50px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.bgc-scrolldown div {
+    font-size: 14px;
+}
+
+.my-phone:before {
+    content: '\f095';
+    font-family: FontAwesome;
+    font-size: 5em;
+}
+
+.mobile-social {
+    float: right;
+    margin-top: 15px;
+    display: none;
+}
+
+.mobile-language {
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+.mobile-social .phone-designer-mobile {
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+.mobile-social .widget_search {
+    display: inline-block;
+}
+
+.mobile-social .btIcoHolder {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1024px) {
     .reservation {
         margin-top: 9px !important;
     }
     #menu-item-9999 {
         margin-left: 0px;
+    }
+    .phone-designer {
+        display: none;
+    }
+    .mobile-social {
+        display: inline-block;
+    }
+    .mobile-language {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .phone-designer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .phone-designer-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .reservation  {
+        display: none;
+    }
+    .btMenuVerticalOn .reservation  {
+        display: inline-block;
     }
 }
