@@ -157,8 +157,6 @@
 
 	$( document ).ready(function () {
 		
-		/* Accordions */
-
 		$( '.tabsVertical .tabAccordionContent' ).hide();
 		
 		$( '.tabsVertical .tabAccordionTitle' ).click(function() {

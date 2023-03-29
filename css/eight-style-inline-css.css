@@ -1,0 +1,1187 @@
+select,
+		input {
+			font-family: "Lato";
+		}
+
+		input:not([type='checkbox']):not([type='radio']):not([type='submit']):focus,
+		textarea:focus {
+			-webkit-box-shadow: 0 0 4px 0 #f2c158;
+			box-shadow: 0 0 4px 0 #f2c158;
+		}
+
+		html a:hover,
+		.btLightSkin a:hover,
+		.btDarkSkin .btLightSkin a:hover,
+		.btLightSkin .btDarkSkin .btLightSkin a:hover,
+		.btDarkSkin a:hover,
+		.btLightSkin .btDarkSkin a:hover,
+		.btDarkSkin.btLightSkin .btDarkSkin a:hover {
+			color: #f2c158;
+		}
+
+		body {
+			font-family: "Lato", Arial, sans-serif;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: "Oswald";
+		}
+
+		.btContentHolder table thead th {
+			background-color: #f2c158;
+			font-family: "Oswald";
+		}
+
+		.btAccentColorBackground {
+			background-color: #f2c158 !important;
+		}
+
+		.btAccentColorBackground .headline b.animate.animated {
+			color: #153641;
+		}
+
+		.btAccentColorBackground .btDash.bottomDash .dash:after {
+			border-color: #153641;
+		}
+
+		.btAccentDarkColorBackground {
+			background-color: #c29200 !important;
+		}
+
+		.btAccentDarkColorBackground .headline b.animate.animated {
+			color: #153641;
+		}
+
+		.btAccentVeryDarkColorBackground {
+			background-color: #5c4500 !important;
+		}
+
+		.btAccentLightColorBackground {
+			background-color: rgba(255, 196, 15, 0.7) !important;
+		}
+
+		.btAlternateColorBackground {
+			background-color: #153641 !important;
+		}
+
+		.btAlternateDarkColorBackground {
+			background-color: #020607 !important;
+		}
+
+		.btAlternateVeryDarkColorBackground {
+			background-color: #000000 !important;
+		}
+
+		.btAlternateLightColorBackground {
+			background-color: rgba(21, 54, 65, 0.6) !important;
+		}
+
+		.btLightSkin .btText a,
+		.btDarkSkin .btLightSkin .btText a,
+		.btLightSkin .btDarkSkin .btLightSkin .btText a,
+		.btDarkSkin .btText a,
+		.btLightSkin .btDarkSkin .btText a,
+		.btDarkSkin.btLightSkin .btDarkSkin .btText a {
+			color: #f2c158;
+		}
+
+		.btAccentDarkHeader .btPreloader .animation>div:first-child,
+		.btLightAccentHeader .btPreloader .animation>div:first-child {
+			background-color: #c29200;
+		}
+
+		.btPreloader .animation .preloaderLogo {
+			height: 100px;
+		}
+
+		.btLoader {
+			border-top: 5px solid #f2c158;
+		}
+
+		.mainHeader {
+			font-family: "Oswald";
+		}
+
+		.btMenuVertical.btAccentDarkHeader .mainHeader,
+		.btMenuVertical.btLightAccentHeader .mainHeader {
+			background-color: #f2c158;
+		}
+
+		.menuPort {
+			font-family: "Oswald";
+		}
+
+		.menuPort nav ul li a:hover {
+			color: #f2c158 !important;
+		}
+
+		.menuPort nav>ul>li>a {
+			line-height: 100px;
+		}
+
+		.btTextLogo {
+			line-height: 100px;
+		}
+
+		.btLogoArea .logo img {
+			height: 100px;
+		}
+
+		.btHorizontalMenuTrigger {
+			line-height: 100px;
+		}
+
+		.btMenuHorizontal .menuPort nav>ul>li.current-menu-ancestor>a:after,
+		.btMenuHorizontal .menuPort nav>ul>li.current-menu-item>a:after {
+			background-color: #f2c158;
+		}
+
+		.btAccentDarkHeader.btMenuHorizontal .menuPort nav>ul>li.current-menu-ancestor>a:after,
+		.btAccentDarkHeader.btMenuHorizontal .menuPort nav>ul>li.current-menu-item>a:after,
+		.btAccentLightHeader.btMenuHorizontal .menuPort nav>ul>li.current-menu-ancestor>a:after,
+		.btAccentLightHeader.btMenuHorizontal .menuPort nav>ul>li.current-menu-item>a:after {
+			background-color: #153641;
+		}
+
+		.btMenuHorizontal .menuPort nav>ul>li>ul li.current-menu-ancestor>a,
+		.btMenuHorizontal .menuPort nav>ul>li>ul li.current-menu-item>a {
+			color: #f2c158 !important;
+		}
+
+		body.btMenuHorizontal .subToggler {
+			line-height: 100px;
+		}
+
+		.btMenuHorizontal .topBarInMenu {
+			height: 100px;
+		}
+
+		.btLightSkin.btAccentLightHeader.btMenuHorizontal .btBelowLogoArea .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btAccentLightHeader.btMenuHorizontal .btBelowLogoArea .menuPort>nav>ul>li>a:hover,
+		.btLightSkin.btAccentLightHeader.btMenuHorizontal .topBar .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btAccentLightHeader.btMenuHorizontal .topBar .menuPort>nav>ul>li>a:hover {
+			color: #153641 !important;
+		}
+
+		.btAccentLightHeader.btMenuHorizontal:not(.btBelowMenu) .btBelowLogoArea,
+		.btAccentLightHeader.btMenuHorizontal:not(.btBelowMenu) .topBar,
+		.btAccentLightHeader.btMenuHorizontal.btStickyHeaderActive .btBelowLogoArea,
+		.btAccentLightHeader.btMenuHorizontal.btStickyHeaderActive .topBar {
+			background-color: #f2c158;
+		}
+
+		.btAccentLightHeader.btMenuHorizontal:not(.btBelowMenu) .btBelowLogoArea:before,
+		.btAccentLightHeader.btMenuHorizontal:not(.btBelowMenu) .topBar:before,
+		.btAccentLightHeader.btMenuHorizontal.btStickyHeaderActive .btBelowLogoArea:before,
+		.btAccentLightHeader.btMenuHorizontal.btStickyHeaderActive .topBar:before {
+			background-color: #f2c158;
+		}
+
+		.btAccentLightHeader.btMenuHorizontal.btBelowMenu:not(.btStickyHeaderActive) .mainHeader .btBelowLogoArea,
+		.btAccentLightHeader.btMenuHorizontal.btBelowMenu:not(.btStickyHeaderActive) .mainHeader .topBar {
+			background-color: #f2c158;
+		}
+
+		.btLightSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .menuPort>nav>ul>li>a:hover,
+		.btLightSkin.btLightHeader.btMenuHorizontal .topBar .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .topBar .menuPort>nav>ul>li>a:hover {
+			color: #153641 !important;
+		}
+
+		.btLightSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .menuPort>nav>ul>li>a:hover {
+			color: #153641 !important;
+		}
+
+		.btAccentDarkHeader.btMenuHorizontal:not(.btBelowMenu) .mainHeader,
+		.btAccentDarkHeader.btMenuHorizontal.btStickyHeaderActive .mainHeader {
+			background-color: #f2c158;
+		}
+
+		.btAccentDarkHeader.btMenuHorizontal.btBelowMenu:not(.btStickyHeaderActive) .mainHeader .port .btLogoArea {
+			background-color: #f2c158;
+		}
+
+		.btLightSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .menuPort>nav>ul>li>a:hover,
+		.btDarkSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .menuPort>nav>ul>li>a:hover {
+			color: #153641 !important;
+		}
+
+		.btLightAccentHeader.btMenuHorizontal:not(.btBelowMenu) .mainHeader,
+		.btLightAccentHeader.btMenuHorizontal.btStickyHeaderActive .mainHeader {
+			background-color: #f2c158;
+		}
+
+		.btLightAccentHeader.btMenuHorizontal.btBelowMenu:not(.btStickyHeaderActive) .mainHeader .port .btLogoArea {
+			background-color: #f2c158;
+		}
+
+		.btAccentDarkHeader.btMenuVertical>.menuPort .logo,
+		.btLightAccentHeader.btMenuVertical>.menuPort .logo {
+			background-color: #f2c158;
+		}
+
+		.btMenuVertical>.menuPort .btCloseVertical:before:hover {
+			color: #f2c158;
+		}
+
+		@media (min-width: 1200px) {
+			.btMenuVerticalOn .btVerticalMenuTrigger .btIco a:before {
+				color: #f2c158 !important;
+			}
+		}
+
+		.btMenuHorizontal .topBarInLogoArea {
+			height: 100px;
+		}
+
+		.btMenuHorizontal .topBarInLogoArea .topBarInLogoAreaCell {
+			border: 0 solid #f2c158;
+		}
+
+		.btLightSkin nav:before,
+		.btDarkSkin .btLightSkin nav:before,
+		.btLightSkin .btDarkSkin .btLightSkin nav:before,
+		.btLightSkin nav:after,
+		.btDarkSkin .btLightSkin nav:after,
+		.btLightSkin .btDarkSkin .btLightSkin nav:after {
+			background-color: #f2c158;
+		}
+
+		.btDarkSkin nav:before,
+		.btLightSkin .btDarkSkin nav:before,
+		.btDarkSkin.btLightSkin .btDarkSkin nav:before,
+		.btDarkSkin nav:after,
+		.btLightSkin .btDarkSkin nav:after,
+		.btDarkSkin.btLightSkin .btDarkSkin nav:after {
+			background-color: #f2c158;
+		}
+
+		.btSearchInner.btFromTopBox {
+			background: #f2c158;
+		}
+
+		.btSearchInner.btFromTopBox form button:hover:before {
+			color: #f2c158;
+		}
+
+		.btDarkSkin .btSiteFooter .port:before,
+		.btLightSkin .btDarkSkin .btSiteFooter .port:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btSiteFooter .port:before {
+			background-color: #f2c158;
+		}
+
+		.btMediaBox.btQuote,
+		.btMediaBox.btLink {
+			background-color: #f2c158;
+		}
+
+		.btArticleListItem .headline a:hover {
+			color: #f2c158;
+		}
+
+		.btCommentsBox .vcard .posted {
+			font-family: "Oswald";
+		}
+
+		.btCommentsBox .commentTxt p.edit-link,
+		.btCommentsBox .commentTxt p.reply {
+			font-family: "Oswald";
+		}
+
+		.comment-respond .btnOutline button[type="submit"] {
+			font-family: "Oswald";
+		}
+
+		a#cancel-comment-reply-link:hover {
+			color: #f2c158;
+		}
+
+		.bypostauthor {
+			color: #f2c158;
+		}
+
+		.post-password-form input[type="submit"] {
+			background: #f2c158;
+			font-family: "Oswald";
+		}
+
+		.btPagination {
+			font-family: "Oswald";
+		}
+
+		.btPagination .paging a:hover:after {
+			border-color: #f2c158;
+		}
+
+		span.btHighlight {
+			background-color: #f2c158;
+		}
+
+		.btArticleCategories a:not(:first-child):before {
+			background-color: #f2c158;
+		}
+
+		.btArticleMeta {
+			font-family: "Oswald";
+		}
+
+		body:not(.btNoDashInSidebar) .btBox>h4:after,
+		body:not(.btNoDashInSidebar) .btCustomMenu>h4:after,
+		body:not(.btNoDashInSidebar) .btTopBox>h4:after {
+			border-bottom: 3px solid #f2c158;
+		}
+
+		.btBox ul li.current-menu-item>a,
+		.btCustomMenu ul li.current-menu-item>a,
+		.btTopBox ul li.current-menu-item>a {
+			color: #f2c158;
+		}
+
+		.btBox .ppTxt .header .headline a a:hover,
+		.btCustomMenu .ppTxt .header .headline a a:hover,
+		.btTopBox .ppTxt .header .headline a a:hover {
+			color: #f2c158;
+		}
+
+		.widget_calendar table caption {
+			background: #f2c158;
+			font-family: "Oswald";
+		}
+
+		.widget_rss li a.rsswidget {
+			font-family: "Oswald";
+		}
+
+		.fancy-select .trigger.open {
+			color: #f2c158;
+		}
+
+		.fancy-select ul.options li:hover {
+			color: #f2c158;
+		}
+
+		.widget_shopping_cart .widget_shopping_cart_content .mini_cart_item .ppRemove a.remove {
+			background-color: #f2c158;
+		}
+
+		.widget_shopping_cart .widget_shopping_cart_content .mini_cart_item .ppRemove a.remove:hover {
+			background-color: #153641;
+		}
+
+		.menuPort .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents,
+		.topTools .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents,
+		.topBarInLogoArea .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetIcon span.cart-contents {
+			background-color: #153641;
+			font: normal 10px/1 Oswald;
+		}
+
+		.btMenuVertical .menuPort .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler,
+		.btMenuVertical .topTools .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler,
+		.btMenuVertical .topBarInLogoArea .widget_shopping_cart .widget_shopping_cart_content .btCartWidgetInnerContent .verticalMenuCartToggler {
+			background-color: #f2c158;
+		}
+
+		.widget_price_filter .price_slider_wrapper .ui-slider .ui-slider-handle {
+			background-color: #f2c158;
+		}
+
+		.btBox .tagcloud a,
+		.btTags ul a {
+			background: #f2c158;
+		}
+
+		.btSidebar .btIconWidget:hover .btIconWidgetText,
+		footer .btIconWidget:hover .btIconWidgetText {
+			color: #f2c158;
+		}
+
+		.btTopBox.widget_bt_text_image .widget_sp_image-description {
+			font-family: 'Lato', arial, sans-serif;
+		}
+
+		.btMenuHorizontal .topTools .btIconWidget:hover,
+		.btMenuHorizontal .topBarInMenu .btIconWidget:hover {
+			color: #f2c158;
+		}
+
+		.btMenuHorizontal .topTools .btAccentIconWidget,
+		.btMenuHorizontal .topBarInMenu .btAccentIconWidget {
+			background-color: #f2c158;
+		}
+
+		.btTopToolsInMenuArea.btMenuHorizontal .topTools .btAccentIconWidget,
+		.btTopToolsInMenuArea.btMenuHorizontal .topBarInMenu .btAccentIconWidget {
+			background-color: #153641;
+		}
+
+		.btTopToolsInMenuArea.btMenuHorizontal .topTools .btAccentIconWidget:hover,
+		.btTopToolsInMenuArea.btMenuHorizontal .topBarInMenu .btAccentIconWidget:hover {
+			color: #f2c158;
+		}
+
+		.btAccentLightHeader.btMenuHorizontal .topTools .btAccentIconWidget,
+		.btLightAccentHeader.btMenuHorizontal .topTools .btAccentIconWidget,
+		.btAccentLightHeader.btMenuHorizontal .topBarInMenu .btAccentIconWidget,
+		.btLightAccentHeader.btMenuHorizontal .topBarInMenu .btAccentIconWidget {
+			background-color: #153641;
+		}
+
+		.btMenuHorizontal .topTools .btAccentIconWidget:hover,
+		.btMenuHorizontal .topBarInMenu .btAccentIconWidget:hover {
+			color: #153641;
+		}
+
+		.btTopToolsInMenuArea.btLightAccentHeader.btMenuHorizontal .topTools .btAccentIconWidget:hover,
+		.btTopToolsInMenuArea.btLightAccentHeader.btMenuHorizontal .topBarInMenu .btAccentIconWidget:hover {
+			background-color: #f2c158;
+		}
+
+		.btLightSkin.btAccentLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btDarkSkin.btAccentLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btLightSkin.btAccentLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btDarkSkin.btAccentLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:hover:before,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:hover:before,
+		.btLightSkin.btLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:hover:before,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:hover:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .btBelowLogoArea .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btLightSkin.btLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before,
+		.btDarkSkin.btLightHeader.btMenuHorizontal .topBar .btIco.btIcoDefaultType.btIcoDefaultColor .btIcoHolder:hover:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btDarkSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .btIco.btIcoDefaultType .btIcoHolder:hover:before,
+		.btDarkSkin.btAccentDarkHeader.btMenuHorizontal .mainHeader .btIco.btIcoDefaultType .btIcoHolder:hover:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btDarkSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before {
+			color: #153641;
+		}
+
+		.btLightSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .btIco.btIcoDefaultType .btIcoHolder:hover:before,
+		.btDarkSkin.btLightAccentHeader.btMenuHorizontal .mainHeader .btLogoArea .btIco.btIcoDefaultType .btIcoHolder:hover:before {
+			color: #153641;
+		}
+
+		.btSpecialHeaderIcon .btIco .btIcoHolder:before,
+		.btSpecialHeaderIcon .btIconWidgetTitle,
+		.btSpecialHeaderIcon .btIconWidgetText {
+			color: #f2c158 !important;
+		}
+
+		.btLightSkin .btBox .btSearch button:hover,
+		.btDarkSkin .btLightSkin .btBox .btSearch button:hover,
+		.btLightSkin .btDarkSkin .btLightSkin .btBox .btSearch button:hover,
+		.btDarkSkin .btBox .btSearch button:hover,
+		.btLightSkin .btDarkSkin .btBox .btSearch button:hover,
+		.btDarkSkin.btLightSkin .btDarkSkin .btBox .btSearch button:hover,
+		.btLightSkin form.woocommerce-product-search button:hover,
+		.btDarkSkin .btLightSkin form.woocommerce-product-search button:hover,
+		.btLightSkin .btDarkSkin .btLightSkin form.woocommerce-product-search button:hover,
+		.btDarkSkin form.woocommerce-product-search button:hover,
+		.btLightSkin .btDarkSkin form.woocommerce-product-search button:hover,
+		.btDarkSkin.btLightSkin .btDarkSkin form.woocommerce-product-search button:hover {
+			background: #f2c158 !important;
+			border-color: #f2c158 !important;
+		}
+
+		.topTools .widget_search button,
+		.topBarInMenu .widget_search button {
+			background: #f2c158;
+		}
+
+		.topTools .widget_search button:before,
+		.topBarInMenu .widget_search button:before {
+			color: #f2c158;
+		}
+
+		.topTools .widget_search button:hover,
+		.topBarInMenu .widget_search button:hover {
+			background: #c29200;
+		}
+
+		.btIco .btIcoHolder span,
+		.btIco .btIcoHolder a {
+			font-family: Lato;
+		}
+
+		.btIcoFilledType.btIcoAccentColor.btIconHexagonShape.btIco .btIcoHolder .hex {
+			fill: #f2c158;
+		}
+
+		.btIcoFilledType.btIcoAlternateColor.btIconHexagonShape.btIco .btIcoHolder .hex {
+			fill: #153641;
+		}
+
+		.btIcoOutlineType.btIcoAccentColor.btIconHexagonShape.btIco .btIcoHolder .hex {
+			stroke: #f2c158;
+		}
+
+		.btIcoOutlineType.btIcoAlternateColor.btIconHexagonShape.btIco .btIcoHolder .hex {
+			stroke: #153641;
+		}
+
+		.btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAccentColor.btIco:hover .btIcoHolder .hex {
+			fill: #f2c158;
+			stroke: #f2c158;
+		}
+
+		.btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btLightSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoOutlineType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex {
+			fill: #153641;
+			stroke: #153641;
+		}
+
+		.btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAlternateColor.btIco:hover .btIcoHolder .hex {
+			stroke: #153641;
+		}
+
+		.btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btLightSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIconHexagonShape.btIcoFilledType.btIcoAccentColor.btIco:hover .btIcoHolder .hex {
+			stroke: #f2c158;
+		}
+
+		.btIconHexagonShape .btIco.btIcoFilledType .btIcoHolder svg .hex {
+			fill: #f2c158;
+		}
+
+		.btIconHexagonShape .btIco.btIcoFilledType:hover .btIcoHolder svg .hex {
+			stroke: #f2c158;
+		}
+
+		.btIconHexagonShape .btIco.btIcoOutlineType .btIcoHolder svg .hex {
+			stroke: #f2c158;
+		}
+
+		.btIconHexagonShape .btIco.btIcoOutlineType:hover .btIcoHolder svg .hex {
+			stroke: #f2c158;
+			fill: #f2c158;
+		}
+
+		.btIco.btIcoFilledType.btIcoAccentColor .btIcoHolder:before,
+		.btIco.btIcoOutlineType.btIcoAccentColor:hover .btIcoHolder:before {
+			-webkit-box-shadow: 0 0 0 1em #f2c158 inset;
+			box-shadow: 0 0 0 1em #f2c158 inset;
+		}
+
+		.btIco.btIcoFilledType.btIcoAccentColor:hover .btIcoHolder:before,
+		.btIco.btIcoOutlineType.btIcoAccentColor .btIcoHolder:before {
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset;
+			box-shadow: 0 0 0 1px #f2c158 inset;
+			color: #f2c158;
+		}
+
+		.btIco.btIcoFilledType.btIcoAlternateColor .btIcoHolder:before,
+		.btIco.btIcoOutlineType.btIcoAlternateColor:hover .btIcoHolder:before {
+			-webkit-box-shadow: 0 0 0 1em #153641 inset;
+			box-shadow: 0 0 0 1em #153641 inset;
+		}
+
+		.btIco.btIcoFilledType.btIcoAlternateColor:hover .btIcoHolder:before,
+		.btIco.btIcoOutlineType.btIcoAlternateColor .btIcoHolder:before {
+			-webkit-box-shadow: 0 0 0 1px #153641 inset;
+			box-shadow: 0 0 0 1px #153641 inset;
+			color: #153641;
+		}
+
+		.btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+		.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+		.btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before {
+			color: #f2c158;
+		}
+
+		.btLightSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
+		.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
+		.btDarkSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
+		.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAlternateColor .btIcoHolder:before {
+			color: #153641;
+		}
+
+		.btIcoAccentColor span {
+			color: #f2c158;
+		}
+
+		.btIcoAlternateColor span {
+			color: #153641;
+		}
+
+		.btIcoDefaultColor:hover span {
+			color: #f2c158;
+		}
+
+		.btBtn {
+			font-family: "Lato";
+		}
+
+		.btnBorderlessStyle {
+			border-bottom: 2px solid rgba(255, 196, 15, 0.7);
+		}
+
+		.btnFilledStyle.btnAccentColor,
+		.btnOutlineStyle.btnAccentColor:hover {
+			background-color: #f2c158;
+			border: 2px solid #f2c158;
+		}
+
+		.btnOutlineStyle.btnAccentColor,
+		.btnFilledStyle.btnAccentColor:hover {
+			border: 2px solid #f2c158;
+			color: #f2c158;
+		}
+
+		.btnOutlineStyle.btnAccentColor span,
+		.btnFilledStyle.btnAccentColor:hover span,
+		.btnOutlineStyle.btnAccentColor span:before,
+		.btnFilledStyle.btnAccentColor:hover span:before,
+		.btnOutlineStyle.btnAccentColor a,
+		.btnFilledStyle.btnAccentColor:hover a,
+		.btnOutlineStyle.btnAccentColor .btIco a:before,
+		.btnFilledStyle.btnAccentColor:hover .btIco a:before,
+		.btnOutlineStyle.btnAccentColor button,
+		.btnFilledStyle.btnAccentColor:hover button {
+			color: #f2c158 !important;
+		}
+
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover {
+			border-color: rgba(255, 196, 15, 0.7);
+		}
+
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor span,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor span,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor span,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor span,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor span,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor span,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover span,
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor span:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover span:before,
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor a,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor a,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor a,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor a,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor a,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor a,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover a,
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor .btIco a:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+		.btDarkSkin .btnBorderlessStyle.btnAccentColor button,
+		.btDarkSkin .btnBorderlessStyle.btnNormalColor:hover button,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor button,
+		.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover button,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnAccentColor button,
+		.btDarkSkin.btLightSkin .btDarkSkin .btnBorderlessStyle.btnNormalColor:hover button,
+		.btLightSkin .btnBorderlessStyle.btnAccentColor button,
+		.btLightSkin .btnBorderlessStyle.btnNormalColor:hover button,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor button,
+		.btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover button,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnAccentColor button,
+		.btLightSkin .btDarkSkin .btLightSkin .btnBorderlessStyle.btnNormalColor:hover button {
+			color: #f2c158;
+		}
+
+		.btnFilledStyle.btnAlternateColor,
+		.btnOutlineStyle.btnAlternateColor:hover {
+			background-color: #153641;
+			border: 2px solid #153641;
+		}
+
+		.btnOutlineStyle.btnAlternateColor,
+		.btnFilledStyle.btnAlternateColor:hover {
+			border: 2px solid #153641;
+			color: #153641;
+		}
+
+		.btnOutlineStyle.btnAlternateColor span,
+		.btnFilledStyle.btnAlternateColor:hover span,
+		.btnOutlineStyle.btnAlternateColor span:before,
+		.btnFilledStyle.btnAlternateColor:hover span:before,
+		.btnOutlineStyle.btnAlternateColor a,
+		.btnFilledStyle.btnAlternateColor:hover a,
+		.btnOutlineStyle.btnAlternateColor .btIco a:before,
+		.btnFilledStyle.btnAlternateColor:hover .btIco a:before,
+		.btnOutlineStyle.btnAlternateColor button,
+		.btnFilledStyle.btnAlternateColor:hover button {
+			color: #153641 !important;
+		}
+
+		.btnBorderlessStyle.btnAlternateColor {
+			border-color: rgba(21, 54, 65, 0.6);
+		}
+
+		.btnBorderlessStyle.btnAlternateColor span,
+		.btnBorderlessStyle.btnAlternateColor span:before,
+		.btnBorderlessStyle.btnAlternateColor a,
+		.btnBorderlessStyle.btnAlternateColor .btIco a:before,
+		.btnBorderlessStyle.btnAlternateColor button {
+			color: #153641;
+		}
+
+		.btCounterHolder {
+			font-family: "Lato";
+		}
+
+		.btCounterHolder .btCountdownHolder .days_text,
+		.btCounterHolder .btCountdownHolder .hours_text,
+		.btCounterHolder .btCountdownHolder .minutes_text,
+		.btCounterHolder .btCountdownHolder .seconds_text {
+			font-family: Oswald;
+			color: #f2c158;
+		}
+
+		.btProgressContent {
+			font-family: "Oswald";
+		}
+
+		.btProgressContent .btProgressAnim {
+			background-color: #f2c158;
+		}
+
+		.btShowTitle {
+			border-left: 4px solid #f2c158;
+		}
+
+		.btAccentColorBackground .btShowTitle {
+			border-left: 4px solid #153641;
+		}
+
+		.btPriceTable .btPriceTableHeader {
+			border: 10px solid #f2c158;
+		}
+
+		.header .btSuperTitle {
+			font-family: "Oswald";
+			color: #f2c158;
+		}
+
+		.btAccentBackgroundSuperheadline.header .btSuperTitle span,
+		.btAlternateBackgroundSuperheadline.header .btSuperTitle span {
+			background: #f2c158;
+		}
+
+		.btAlternateBackgroundSuperheadline.header .btSuperTitle span {
+			background: #153641;
+		}
+
+		.header .btSubTitle {
+			font-family: "Lato";
+		}
+
+		.btDash.bottomDash .dash:after {
+			border-bottom: 4px solid #f2c158;
+		}
+
+		.btDash.topDash .btSuperTitle:after,
+		.btDash.topDash .btSuperTitle:before {
+			border-top: 1px solid #f2c158;
+		}
+
+		.btNoMore {
+			font-family: Oswald;
+		}
+
+		.btGridContent .header .btSuperTitle a:hover {
+			color: #f2c158;
+		}
+
+		.btCatFilter .btCatFilterItem:hover {
+			color: #f2c158;
+		}
+
+		.btCatFilter .btCatFilterItem.active {
+			color: #f2c158;
+		}
+
+		.nbs a .nbsItem .nbsDir {
+			font-family: "Oswald";
+		}
+
+		.btLightSkin .btSimpleArrows .nbs a:hover:before,
+		.btDarkSkin .btLightSkin .btSimpleArrows .nbs a:hover:before,
+		.btLightSkin .btDarkSkin .btLightSkin .btSimpleArrows .nbs a:hover:before,
+		.btDarkSkin .btSimpleArrows .nbs a:hover:before,
+		.btLightSkin .btDarkSkin .btSimpleArrows .nbs a:hover:before,
+		.btDarkSkin.btLightSkin .btDarkSkin .btSimpleArrows .nbs a:hover:before {
+			color: #f2c158 !important;
+		}
+
+		.neighboringArticles .nbs a .nbsItem .nbsDir {
+			font-family: 'Lato', arial, sans-serif;
+		}
+
+		.neighboringArticles .nbs a:hover .nbsDir {
+			color: #f2c158;
+		}
+
+		.recentTweets small:before {
+			color: #f2c158;
+		}
+
+		.btInfoBar .btInfoBarMeta p strong {
+			color: #f2c158;
+		}
+
+		.tabsHeader li.on {
+			-webkit-box-shadow: 0 2px 0 0 #f2c158;
+			box-shadow: 0 2px 0 0 #f2c158;
+		}
+
+		.tabsHeader li.on a,
+		.tabsHeader li.on span {
+			color: #f2c158;
+		}
+
+		.tabsVertical .tabAccordionTitle {
+			font-family: "Oswald";
+		}
+
+		.btOpenTableReservationRow .btOpenTableReservationColumnSubmit input {
+			background: #f2c158;
+		}
+
+		.btVisualizer {
+			font-family: Oswald;
+		}
+
+		form.wpcf7-form .wpcf7-submit {
+			background-color: #f2c158;
+		}
+
+		.btAnimNav li.btAnimNavDot {
+			font-family: Oswald;
+		}
+
+		.btAnimNav li.btAnimNavNext:hover,
+		.btAnimNav li.btAnimNavPrev:hover {
+			border-color: #f2c158;
+			color: #f2c158;
+		}
+
+		.headline b.animate.animated {
+			color: #f2c158;
+		}
+
+		.headline em.animate {
+			font-family: Lato;
+		}
+
+		p.demo_store {
+			background-color: #f2c158;
+		}
+
+		.woocommerce .woocommerce-info a:not(.button),
+		.woocommerce .woocommerce-message a:not(.button),
+		.woocommerce-page .woocommerce-info a:not(.button),
+		.woocommerce-page .woocommerce-message a:not(.button) {
+			color: #f2c158;
+		}
+
+		.woocommerce .woocommerce-message:before,
+		.woocommerce .woocommerce-info:before,
+		.woocommerce-page .woocommerce-message:before,
+		.woocommerce-page .woocommerce-info:before {
+			color: #f2c158;
+		}
+
+		.woocommerce p.lost_password:before,
+		.woocommerce-page p.lost_password:before {
+			color: #f2c158;
+		}
+
+		.woocommerce form.login p.lost_password a:hover,
+		.woocommerce-page form.login p.lost_password a:hover {
+			color: #f2c158;
+		}
+
+		.woocommerce .added:after,
+		.woocommerce .loading:after,
+		.woocommerce-page .added:after,
+		.woocommerce-page .loading:after {
+			background-color: #f2c158;
+		}
+
+		.woocommerce div.product p.price,
+		.woocommerce div.product span.price,
+		.woocommerce-page div.product p.price,
+		.woocommerce-page div.product span.price {
+			color: #f2c158;
+		}
+
+		.woocommerce div.product .stock,
+		.woocommerce-page div.product .stock {
+			color: #f2c158;
+		}
+
+		.woocommerce div.product a.reset_variations:hover,
+		.woocommerce-page div.product a.reset_variations:hover {
+			color: #f2c158;
+		}
+
+		.woocommerce .products ul li.product .btPriceTableSticker,
+		.woocommerce ul.products li.product .btPriceTableSticker,
+		.woocommerce-page .products ul li.product .btPriceTableSticker,
+		.woocommerce-page ul.products li.product .btPriceTableSticker {
+			background: #f2c158;
+		}
+
+		.woocommerce nav.woocommerce-pagination ul li a:focus,
+		.woocommerce nav.woocommerce-pagination ul li a:hover,
+		.woocommerce nav.woocommerce-pagination ul li a.next,
+		.woocommerce nav.woocommerce-pagination ul li a.prev,
+		.woocommerce nav.woocommerce-pagination ul li span.current,
+		.woocommerce-page nav.woocommerce-pagination ul li a:focus,
+		.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+		.woocommerce-page nav.woocommerce-pagination ul li a.next,
+		.woocommerce-page nav.woocommerce-pagination ul li a.prev,
+		.woocommerce-page nav.woocommerce-pagination ul li span.current {
+			background: #f2c158;
+		}
+
+		.woocommerce .star-rating span:before,
+		.woocommerce-page .star-rating span:before {
+			color: #f2c158;
+		}
+
+		.woocommerce p.stars a[class^="star-"].active:after,
+		.woocommerce p.stars a[class^="star-"]:hover:after,
+		.woocommerce-page p.stars a[class^="star-"].active:after,
+		.woocommerce-page p.stars a[class^="star-"]:hover:after {
+			color: #f2c158;
+		}
+
+		.woocommerce-cart table.cart td.product-remove a.remove {
+			color: #f2c158;
+			border: 1px solid #f2c158;
+		}
+
+		.woocommerce-cart table.cart td.product-remove a.remove:hover {
+			background-color: #f2c158;
+		}
+
+		.woocommerce-cart .cart_totals .discount td {
+			color: #f2c158;
+		}
+
+		.woocommerce-account header.title .edit {
+			color: #f2c158;
+		}
+
+		.woocommerce-account header.title .edit:before {
+			color: #f2c158;
+		}
+
+		.btLightSkin.woocommerce-page .product .headline a:hover,
+		.btDarkSkin .btLightSkin.woocommerce-page .product .headline a:hover,
+		.btLightSkin .btDarkSkin .btLightSkin.woocommerce-page .product .headline a:hover,
+		.btDarkSkin.woocommerce-page .product .headline a:hover,
+		.btLightSkin .btDarkSkin.woocommerce-page .product .headline a:hover,
+		.btDarkSkin.btLightSkin .btDarkSkin.woocommerce-page .product .headline a:hover {
+			color: #f2c158;
+		}
+
+		.btQuoteBooking .btContactNext {
+			border: #f2c158 2px solid;
+			color: #f2c158;
+		}
+
+		.btQuoteBooking .btContactNext:hover,
+		.btQuoteBooking .btContactNext:active {
+			background-color: #f2c158 !important;
+		}
+
+		.btQuoteBooking .btQuoteSwitch:hover {
+			-webkit-box-shadow: 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .btQuoteSwitch.on .btQuoteSwitchInner {
+			background: #f2c158;
+		}
+
+		.btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText,
+		.btQuoteBooking .dd.ddcommon.borderRadiusBtm .ddTitleText {
+			-webkit-box-shadow: 5px 0 0 #f2c158 inset, 0 2px 10px rgba(0, 0, 0, .2);
+			box-shadow: 5px 0 0 #f2c158 inset, 0 2px 10px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .ui-slider .ui-slider-handle {
+			background: #f2c158;
+		}
+
+		.btQuoteBooking .btQuoteBookingForm .btQuoteTotal {
+			background: #f2c158;
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError input,
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea {
+			border: 1px solid #f2c158;
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset;
+			box-shadow: 0 0 0 1px #f2c158 inset;
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {
+			border: 1px solid #f2c158;
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset;
+			box-shadow: 0 0 0 1px #f2c158 inset;
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError input:hover,
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea:hover {
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset, 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 1px #f2c158 inset, 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText {
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset, 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 1px #f2c158 inset, 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError input:focus,
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea:focus {
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset, 5px 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 1px #f2c158 inset, 5px 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText {
+			-webkit-box-shadow: 0 0 0 1px #f2c158 inset, 5px 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 1px #f2c158 inset, 5px 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		.btQuoteBooking .btSubmitMessage {
+			color: #f2c158;
+		}
+
+		.btDatePicker .ui-datepicker-header {
+			background-color: #f2c158;
+		}
+
+		.btQuoteBooking .btContactSubmit {
+			font-family: "Oswald";
+			background-color: #f2c158;
+			border: 1px solid #f2c158;
+		}
+
+		.btQuoteBooking .btContactSubmit:hover {
+			color: #f2c158;
+		}
+
+		.btPayPalButton:hover {
+			-webkit-box-shadow: 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+			box-shadow: 0 0 0 #f2c158 inset, 0 1px 5px rgba(0, 0, 0, .2);
+		}
+
+		#btSettingsPanel #btSettingsPanelToggler:before {
+			color: #f2c158;
+		}
+
+		#btSettingsPanel h4 {
+			background-color: #f2c158;
+		}
+
+		#btSettingsPanel .btSettingsPanelRow.btAccentColorRow .trigger,
+		#btSettingsPanel .btSettingsPanelRow.btAccentColorRow select {
+			border-color: #f2c158;
+		}
+
+		#btSettingsPanel .btSettingsPanelRow.btAlternateColorRow .trigger,
+		#btSettingsPanel .btSettingsPanelRow.btAlternateColorRow select {
+			border-color: #153641;
+		}
+
+		.wp-block-button__link:hover {
+			color: #f2c158 !important;
+		}
+
+		.menuPort {
+			font-size: 16px;
+		}

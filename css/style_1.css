@@ -19610,7 +19610,7 @@ em {
 }
 
 #bt_section641e824d50772 .slidedItem {
-    height: 100vh  !important;
+    height: 65vh  !important;
 }
 
 #bt_section641e824d50772 .headline {
@@ -19711,6 +19711,37 @@ em {
     font-size: 20px;
 }
 
+.GoTop {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #f2c158;
+    position: fixed;
+    bottom: -65px;
+    right: 15px;
+    z-index: 99;
+    cursor: pointer;
+    background-image: url(../images/arrow.png);
+    background-position: center center;
+    background-size: 50%;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+}
+
+.GoTopActive {
+    bottom: 15px !important;
+}
+
+@media screen and (min-width: 590px) {
+    .about-type {
+        max-width: 1140px !important;
+        margin: auto !important;
+        padding: 50px 0 !important;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .reservation {
         margin-top: 9px !important;
@@ -19738,6 +19769,11 @@ em {
 @media screen and (max-width: 590px) {
     .phone-designer-mobile {
         display: none;
+    }
+    .about-type {
+        max-width: 1140px !important;
+        margin: auto !important;
+        padding: 25px 0 !important;
     }
 }
 

@@ -63,6 +63,7 @@
 
 		setTimeout(function() {
 			$('.preloader').fadeOut("slow");
+			new WOW().init();
 		}, 800);
 
 		$( '.slidedVariable' ).closest( '.boldSection' ).addClass( 'wVariable' );
@@ -239,6 +240,18 @@
 			$( '.boldPhotoSlide' ).each(function() {
 				$( this )[0].slick.setHeight();
 			});
+		});
+
+		$(".GoTop").click(function() {
+			$("html, body").animate({ scrollTop: 0 }, "slow");
+		});
+
+		$(window).scroll(function(){
+			if($(this).scrollTop()>=($(window).height()/2)){
+				$(".GoTop").addClass("GoTopActive");
+			} else {
+				$(".GoTop").removeClass("GoTopActive");
+			}
 		});
 
 		// Slick dots helper
