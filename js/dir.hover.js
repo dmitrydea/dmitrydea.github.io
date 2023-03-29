@@ -4,7 +4,7 @@
 
 $( document ).ready(function() {
 
-	// direction detection
+	// direction detection re run
 
 	var getHoverDir = function( $element, x, y ) {
 		var w = $element.width(),
