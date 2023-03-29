@@ -230,6 +230,7 @@
 
 		}
 		
+		// resize
 		$( window ).resize(function() {
 			$( '.slided' ).each(function() {
 				$( this )[0].slick.setHeight();
