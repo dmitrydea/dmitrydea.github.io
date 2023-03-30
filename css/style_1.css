@@ -19736,6 +19736,7 @@ em {
 
 .menuPage {
     padding-top: 9em !important;
+    background-attachment: scroll !important;
 }
 
 .ourMenu .btMenuItemText .headline {
@@ -19810,10 +19811,10 @@ em {
         padding: 25px 0 !important;
     }
     .menuPage {
-        background-size: cover !important;
+
     }
     #bt_section64256be968a8f {
-        background-size: cover !important;
+
     }
 }
 
