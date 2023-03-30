@@ -19808,6 +19808,12 @@ em {
         margin: auto !important;
         padding: 25px 0 !important;
     }
+    .menuPage {
+        background-position: right !important;
+    }
+    #bt_section64256be968a8f {
+        background-position: left !important;
+    }
 }
 
 @media screen and (max-width: 366px) {
