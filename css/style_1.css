@@ -19743,7 +19743,7 @@ em {
 }
 
 .multiple-item-eight {
-    margin-top: 10px;
+    
 }
 
 .multiple-item-eight span {
@@ -19753,6 +19753,7 @@ em {
     margin-right: 5px;
     cursor: pointer;
     font-size: 13px;
+    margin-top: 10px;
 }
 
 .multiple-item-eight span.active {
@@ -19809,10 +19810,10 @@ em {
         padding: 25px 0 !important;
     }
     .menuPage {
-        background-size: contain !important;
+        background-size: cover !important;
     }
     #bt_section64256be968a8f {
-        background-size: contain !important;
+        background-size: cover !important;
     }
 }
 
