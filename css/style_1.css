@@ -19736,7 +19736,7 @@ em {
 
 .menuPage {
     padding-top: 9em !important;
-    background-attachment: scroll !important;
+    background-attachment: fixed !important;
 }
 
 .ourMenu .btMenuItemText .headline {
