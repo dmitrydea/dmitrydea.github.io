@@ -19809,10 +19809,10 @@ em {
         padding: 25px 0 !important;
     }
     .menuPage {
-        background-position: right !important;
+        background-size: contain !important;
     }
     #bt_section64256be968a8f {
-        background-position: left !important;
+        background-size: contain !important;
     }
 }
 
