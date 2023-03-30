@@ -19734,6 +19734,39 @@ em {
     bottom: 15px !important;
 }
 
+.menuPage {
+    padding-top: 9em !important;
+}
+
+.ourMenu .btMenuItemText .headline {
+    font-weight: 400 !important;
+}
+
+.multiple-item-eight {
+    margin-top: 10px;
+}
+
+.multiple-item-eight span {
+    border: 1px solid #abb8c3;
+    border-radius: 10px;
+    padding: 2px 6px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.multiple-item-eight span.active {
+    background-color: #f2c158 !important;
+    opacity: 1 !important;
+    font-weight: bold;
+    color: #fff;
+    border-color: #f2c158;
+}
+
+.ourMenu .btMenuItemPrice div {
+    font-weight: bold !important;
+}
+
 @media screen and (min-width: 590px) {
     .about-type {
         max-width: 1140px !important;
