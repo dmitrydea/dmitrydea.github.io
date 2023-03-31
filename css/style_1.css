@@ -19809,6 +19809,9 @@ em {
     .mobile-language {
         visibility: visible;
     }
+    .bgc-x {
+        background-size: auto !important;
+    }
 }
 
 @media screen and (max-width: 1100px) {
