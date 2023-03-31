@@ -19769,6 +19769,22 @@ em {
     font-weight: bold !important;
 }
 
+.menu-page-eight .btFrame {
+    border: none !important;
+}
+
+.menu-page-eight .bottomSpaced {
+    padding-bottom: 3em !important;
+}
+
+.menu-page-eight .topSpaced {
+    padding-top: 3em !important;
+}
+
+.bgc-x {
+    background-position-x: center !important;
+}
+
 @media screen and (min-width: 590px) {
     .about-type {
         max-width: 1140px !important;
@@ -19799,6 +19815,9 @@ em {
     .phone-designer {
         display: none;
     }
+    .bgc-x {
+        background-position-x: right !important;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -19810,11 +19829,15 @@ em {
         margin: auto !important;
         padding: 25px 0 !important;
     }
-    .menuPage {
-
+    .menu-page-eight .bottomSpaced {
+        padding-bottom: 1.3em !important;
     }
-    #bt_section64256be968a8f {
-
+    
+    .menu-page-eight .topSpaced {
+        padding-top: 1.3em !important;
+    }
+    .menu-page-eight .topSemiSpaced {
+        padding-top: 1em !important;
     }
 }
 

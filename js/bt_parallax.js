@@ -46,7 +46,7 @@
 						var ypos = ( bounds.top ) * speed;
 						var firefox  = navigator.userAgent.indexOf('Firefox') > -1;
 						if(firefox && $('body').hasClass('btMenuVerticalLeftEnabled')) ypos = -ypos;
-						$( this ).css( 'background-position', '50% ' + ( ypos + offset ) + 'px' );
+						$( this ).css( 'background-position-y', ( ypos + offset ) + 'px' );
 					}
 
 				});
