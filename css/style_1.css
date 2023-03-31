@@ -19774,11 +19774,20 @@ em {
 }
 
 .menu-page-eight .bottomSpaced {
-    padding-bottom: 3em !important;
+    padding-bottom: 5em !important;
 }
 
 .menu-page-eight .topSpaced {
-    padding-top: 3em !important;
+    padding-top: 5em !important;
+}
+
+.menu-page-eight .btContentWrap section {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-page-eight .dash {
+    position: relative;
 }
 
 .bgc-x {
@@ -19787,6 +19796,75 @@ em {
 
 .bgc-y {
     background-position-x: center !important;
+}
+
+.uzor {
+    height: 56px;
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 100%;
+}
+
+.bublik {
+    width: auto;
+    position: absolute;
+    z-index: 99;
+}
+
+.bublik-position-1 {
+    left: 25px;
+    bottom: 0;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.bublik-position-2 {
+    right: 0px;
+    bottom: 0;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.bublik-position-3-1 {
+    left: -80px;
+    top: 0;
+    animation: fadeInOut; /* referring directly to the animation's @keyframe declaration */
+    animation-timing-function: ease;
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+.bublik-position-3-2 {
+    right: -80px;
+    top: 0;
+    animation: fadeInOut; /* referring directly to the animation's @keyframe declaration */
+    animation-delay: 2s;
+    animation-duration: 4s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.bublik img {
+    width: 70px;
+}
+
+.uzor-bottom {
+    background-image: url(../images/uzz3.png);
+    bottom: -7px;
+    left: 0;
+}
+
+.uzor-top {
+    background-image: url(../images/uzz4.png) !important;
+    top: -3px;
+    left: 0;
 }
 
 @media screen and (min-width: 590px) {
@@ -19843,11 +19921,11 @@ em {
         padding: 25px 0 !important;
     }
     .menu-page-eight .bottomSpaced {
-        padding-bottom: 1.3em !important;
+        padding-bottom: 3.7em !important
     }
     
     .menu-page-eight .topSpaced {
-        padding-top: 1.3em !important;
+        padding-top: 4.5em !important
     }
     .menu-page-eight .topSemiSpaced {
         padding-top: 1em !important;
