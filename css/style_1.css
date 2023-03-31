@@ -19785,6 +19785,10 @@ em {
     background-position-x: center !important;
 }
 
+.bgc-y {
+    background-position-x: center !important;
+}
+
 @media screen and (min-width: 590px) {
     .about-type {
         max-width: 1140px !important;
@@ -19809,7 +19813,7 @@ em {
     .mobile-language {
         visibility: visible;
     }
-    .bgc-x {
+    .bgc-x, .bgc-y {
         background-size: auto !important;
     }
 }
@@ -19820,6 +19824,9 @@ em {
     }
     .bgc-x {
         background-position-x: right !important;
+    }
+    .bgc-y {
+        background-position-x: left !important;
     }
 }
 
