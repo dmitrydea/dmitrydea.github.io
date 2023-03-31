@@ -19784,11 +19784,11 @@ em {
 }
 
 .menu-page-eight .btWhiteSkinEight.bottomSpaced {
-    padding-bottom: 5em !important;
+    padding-bottom: 3em !important;
 }
 
 .menu-page-eight .btWhiteSkinEight.topSpaced {
-    padding-top: 5em !important;
+    padding-top: 3em !important;
 }
 
 .menu-page-eight .btContentWrap section {
@@ -19967,6 +19967,12 @@ em {
         padding-top: 1.5em !important;
     }
     .menu-page-eight .btDarkSkinEight.bottomSpaced {
+        padding-bottom: 1.5em !important;
+    }
+    .menu-page-eight .btWhiteSkinEight.topSpaced {
+        padding-top: 1.5em !important;
+    }
+    .menu-page-eight .btWhiteSkinEight.bottomSpaced {
         padding-bottom: 1.5em !important;
     }
 }
