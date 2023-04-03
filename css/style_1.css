@@ -20010,7 +20010,7 @@ em {
     }
     
     .menu-page-eight .topSpaced {
-        padding-top: 4.5em !important
+        padding-top: 1em !important
     }
     .menu-page-eight .topSemiSpaced {
         padding-top: 1em !important;
@@ -20053,12 +20053,15 @@ em {
     }
     .craftsSlider .btSubTitle {
         text-align: justify !important;
-        font-size: 15px !important;
+        font-size: 10px !important;
     }
     .craftsSlider .btSeparator {
         display: none !important;
     }
     .craftsSlider .headline {
         font-size: 30px !important;
+    }
+    .menu-page-eight .topSemiSpaced {
+        padding-top: 1em !important;
     }
 }
