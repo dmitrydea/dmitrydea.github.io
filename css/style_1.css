@@ -19701,6 +19701,10 @@ em {
     display: none !important;
 }
 
+.craftsSlider .slick-dots {
+    bottom: -33px !important;
+}
+
 .bgc-scrolldown div {
     font-size: 14px;
 }
@@ -19815,6 +19819,28 @@ em {
 
 .menu-page-eight .btWhiteSkinEight.topSpaced {
     padding-top: 3em !important;
+}
+
+.craftsPage .btWhiteSkinEight.bottomSemiSpaced, .craftsPage .btDarkSkinEight.bottomSemiSpaced {
+    padding-bottom: 4em !important;
+}
+
+.craftsPage .btDarkSkinEight, .craftsPage .btDarkSkinEight .headline {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.craftsPage header {
+    margin-top: 15px;
+}
+
+.btDarkSkinEight .btLightSkin .slick-dots li.slick-active button
+, .btDarkSkinEight .btDarkSkin .btLightSkin .slick-dots li.slick-active button
+, .btDarkSkinEight .btLightSkin .btDarkSkin .btLightSkin .slick-dots li.slick-active button
+, .btDarkSkinEight .btLightSkin .slick-dots li button:hover
+, .btDarkSkinEight .btDarkSkin .btLightSkin .slick-dots li button:hover
+, .btDarkSkinEight .btLightSkin .btDarkSkin .btLightSkin .slick-dots li button:hover {
+    background-color: #fff !important;
 }
 
 .menu-page-eight .btContentWrap section {
