@@ -20037,3 +20037,28 @@ em {
         display: inline-block;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .craftsPage .btImage {
+        text-align: center;
+    }
+    .craftsPage .bpgPhoto {
+        float: none !important;
+    }
+    .craftsSlider .rowItemContent {
+        padding: 0 !important;
+    }
+    .craftsSlider .dash {
+        text-align: center !important;
+    }
+    .craftsSlider .btSubTitle {
+        text-align: justify !important;
+        font-size: 15px !important;
+    }
+    .craftsSlider .btSeparator {
+        display: none !important;
+    }
+    .craftsSlider .headline {
+        font-size: 30px !important;
+    }
+}
