@@ -19675,6 +19675,32 @@ em {
     animation-iteration-count: infinite;
 }
 
+.animatePhone {
+    animation: wobble; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.animateService {
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.animateDelivery {
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.insideInline span {
+    display: inline-block !important;
+}
+
+.insideInline span:last-child {
+    display: none !important;
+}
+
 .bgc-scrolldown div {
     font-size: 14px;
 }

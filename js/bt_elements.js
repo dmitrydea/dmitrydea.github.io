@@ -156,6 +156,14 @@
 	/* Accordions and tabs */
 
 	$( document ).ready(function () {
+
+		var typed = new Typed('#animateText', {
+			strings: ['Зробіть онлайн бронювання', 'а ми все для Вас підготуємо'],
+			typeSpeed: 100, // Скорость печати
+			startDelay: 500, // Задержка перед стартом анимации
+			backSpeed: 50, // Скорость удаления
+			loop: true // Указываем, повторять ли анимацию
+		  });
 		
 		$( '.tabsVertical .tabAccordionContent' ).hide();
 		
