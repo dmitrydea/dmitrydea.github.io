@@ -20259,3 +20259,50 @@ em {
     float: none !important;
     margin: 0 !important;
   }
+
+  .servicesItem {
+    display: flex;
+    align-items: center;
+  }
+
+  #bt_section642acc9a64d9c .btSuperTitle {
+    font-size: 1.1em;
+  }
+
+  .fx-align-center {
+    align-items: center !important;
+  }
+
+  .eight-country > span {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .eight-country > span i {
+    margin-right: 5px;
+  }
+
+  .eight-country span:last-child {
+    margin-right: 0px !important;
+  }
+
+  .eight-plan {
+    color: #fff !important;
+  }
+
+  .eight-default {
+    color: #f2c158;
+    font-weight: bold !important;
+  }
+
+  .eight-franchise ul li:not(:last-child),
+   .eight-franchise ul li:not(:last-child),
+    .eight-franchise ul li:not(:last-child) {
+    border-bottom: rgba(255,255,255,.4) 1px dotted !important;
+}
+
+.timeline-header {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0 !important;
+}
