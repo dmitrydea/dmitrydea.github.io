@@ -157,13 +157,41 @@
 
 	$( document ).ready(function () {
 
-		var typed = new Typed('#animateText', {
-			strings: ['Зробіть онлайн бронювання', 'а ми все для Вас підготуємо'],
-			typeSpeed: 100, // Скорость печати
-			startDelay: 500, // Задержка перед стартом анимации
-			backSpeed: 50, // Скорость удаления
-			loop: true // Указываем, повторять ли анимацию
-		  });
+		try {
+			var typed = new Typed('#animateText', {
+				strings: ['Зробіть онлайн бронювання', 'а ми все для Вас підготуємо'],
+				typeSpeed: 100, // Скорость печати
+				startDelay: 500, // Задержка перед стартом анимации
+				backSpeed: 50, // Скорость удаления
+				loop: true // Указываем, повторять ли анимацию
+			  });
+		} catch (error) {
+			
+		}
+		/*
+		try {
+			var typed2 = new Typed('#animateText-fr1', {
+				strings: ['Що входить до франчайзингово пакету Eight?'],
+				typeSpeed: 50, // Скорость печати
+				startDelay: 100, // Задержка перед стартом анимации
+				backSpeed: 50, // Скорость удаления
+				loop: true // Указываем, повторять ли анимацию
+			  });
+		} catch (error) {
+			
+		}
+		try {
+			var typed3 = new Typed('#animateText-fr2', {
+				strings: ['Співпраця після відкриття'],
+				typeSpeed: 50, // Скорость печати
+				startDelay: 100, // Задержка перед стартом анимации
+				backSpeed: 50, // Скорость удаления
+				loop: true // Указываем, повторять ли анимацию
+			  });
+		} catch (error) {
+			
+		}*/
+		  
 		
 		$( '.tabsVertical .tabAccordionContent' ).hide();
 		

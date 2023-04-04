@@ -20193,7 +20193,7 @@ em {
   }
   
   .timeline_custom .container .content h2 {
-    margin: 0 0 10px 0;
+    margin: 0 0 0px 0;
     font-size: 18px;
     font-weight: normal;
     color: #132538;
@@ -20305,4 +20305,30 @@ em {
     display: inline-block;
     margin-bottom: 0;
     padding: 0 !important;
+    color: #132538 !important;
+    font-size: 3em;
+    border: 3px solid #132538;
+    border-radius: 30px;
+    padding: 15px 30px !important;
+}
+
+.eight-to-top {
+    width: 2px;
+    height: 70px;
+    background-color: #132538;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -67px;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+.animateText {
+    min-height: 48px;
 }
