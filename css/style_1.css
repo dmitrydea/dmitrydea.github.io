@@ -19914,16 +19914,12 @@ em {
     width: 70px;
 }
 
-.uzor-bottom {
-    background-image: url(../images/uzz3.png);
-    bottom: -7px;
-    left: 0;
+.eight-mobile {
+    display: none !important;
 }
 
-.uzor-top {
-    background-image: url(../images/uzz4.png) !important;
-    top: -3px;
-    left: 0;
+.eight-desktop {
+    display: block;
 }
 
 @media screen and (min-width: 590px) {
@@ -19986,6 +19982,9 @@ em {
         margin-right: 10px !important;
         font-size: 15px !important;
     }
+    .eight-country span, .eight-country i {
+        vertical-align: middle;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -20006,7 +20005,7 @@ em {
     }
     .eight-animate-eight-logo {
         left: 60%;
-        bottom: -2px !important;
+        bottom: -5px !important;
     }
     .rowItemContentSpecial {
         padding-left: 21px !important;
@@ -20014,6 +20013,15 @@ em {
 }
 
 @media screen and (max-width: 894px) {
+    .eight-animate-eight-meet-mini i {
+        font-size: 22px !important;
+    }
+    .eight-country > span {
+        font-size: 25px !important;
+    }
+    .eight-country span span {
+        display: none !important;
+    }
     .eight-big .eight-animate-bagel {
         top: -30px !important;
         left: 30% !important;
@@ -20024,6 +20032,10 @@ em {
     .eight-big .eight-animate-burger {
         top: 0px !important;
         left: 80% !important;
+    }
+    .eight-big .eight-animate-eight-meet {
+        left: 65% !important;
+        bottom: 10px !important;
     }
     .eight-big .eight-animate-eight-logo {
         left: 85%;
@@ -20098,6 +20110,50 @@ em {
 }
 
 @media screen and (max-width: 767px) {
+    .eight-franchise-timeline-mobile .port {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .timeline-header {
+        font-size: 2em !important;
+        background-color: #fff;
+        position: relative;
+        z-index: 9;
+    }
+    .eight-to-top {
+        display: none !important;
+    }
+    .timeline_custom.timeline::after {
+        left: 90px !important;
+        top: -115px !important;
+        height: 120% !important;
+    }
+    .eight-country {
+        text-align: center !important;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+    .eight-animate-to-bottom {
+        animation-name: likeToBottom !important;
+    }
+    .eight-animate-to-top {
+        animation-name: likeToTop !important;
+    }
+    .sub-title-without-sticker {
+        padding-top: 20px !important;
+    }
+    .wrapper-intro-without-sticker {
+        margin-bottom: 0px !important;
+    }
+    .rowItemContentSpecial {
+        padding: 0 41px !important;
+    }
+    .eight-desktop {
+        display: none !important;
+    }
+    .eight-mobile {
+        display: flex !important;
+    }
     .eight-franchise-intro-mobile .btImage img {
         width: 100% !important;
         height: 50vh !important;
@@ -20529,6 +20585,35 @@ em {
     20%, 100% {
         transform: scale(0);
         bottom: 50%;
+      }
+      0% {
+        transform: scale(0);
+      }
+      10% {
+        transform: scale(1.4);
+      }
+}
+
+
+@keyframes likeToTop {
+    
+    20%, 100% {
+        transform: scale(0);
+        bottom: 80%;
+      }
+      0% {
+        transform: scale(0);
+      }
+      10% {
+        transform: scale(1.4);
+      }
+}
+
+@keyframes likeToBottom {
+    
+    20%, 100% {
+        transform: scale(0);
+        bottom: 25%;
       }
       0% {
         transform: scale(0);
