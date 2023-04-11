@@ -20827,3 +20827,7 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
     -webkit-text-size-adjust: 100% !important;
  }
 
+.eight-without-padding {
+    padding: 0 !important;
+}
+
