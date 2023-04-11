@@ -20836,3 +20836,13 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
     max-width: 64px !important;
 }
 
+.blocker {
+    z-index: 99999 !important;
+    background-color: rgba(19,37,56,0.75) !important;
+}
+
+#reservationData .footer {
+    text-align: center !important;
+    margin-top: 10px;
+}
+

@@ -168,6 +168,19 @@
 		} catch (error) {
 			
 		}
+
+		$("#reservation_").click(function(event) {
+			event.preventDefault();
+			$("#reservationData").modal({
+				fadeDuration: 100
+			});
+		});
+		$("#specialitems_").click(function(event) {
+			event.preventDefault();
+			$("#specialItems").modal({
+				fadeDuration: 100
+			});
+		});
 		/*
 		try {
 			var typed2 = new Typed('#animateText-fr1', {
