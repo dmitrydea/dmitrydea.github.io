@@ -7199,7 +7199,7 @@ body.rtl .btBtn.btnLeftPosition:not(.btnNoIcon) {
 .btDarkSkin .btLightSkin .btnFilledStyle.btnNormalColor:hover button,
 .btLightSkin .btDarkSkin .btLightSkin .btnOutlineStyle.btnNormalColor button,
 .btLightSkin .btDarkSkin .btLightSkin .btnFilledStyle.btnNormalColor:hover button {
-    color: #262626 !important;
+    color: #fff !important;
     }
 .btDarkSkin .btnFilledStyle.btnNormalColor,
 .btDarkSkin .btnOutlineStyle.btnNormalColor:hover,
@@ -7241,7 +7241,7 @@ body.rtl .btBtn.btnLeftPosition:not(.btnNoIcon) {
 .btLightSkin .btDarkSkin .btnOutlineStyle.btnNormalColor:hover button,
 .btDarkSkin.btLightSkin .btDarkSkin .btnFilledStyle.btnNormalColor button,
 .btDarkSkin.btLightSkin .btDarkSkin .btnOutlineStyle.btnNormalColor:hover button {
-    color: #262626 !important;
+    color: #fff !important;
     }
 .btDarkSkin .btnOutlineStyle.btnNormalColor,
 .btDarkSkin .btnFilledStyle.btnNormalColor:hover,
@@ -19732,10 +19732,32 @@ em {
 
 .mobile-social .widget_search {
     display: inline-block;
+    margin-top: -4px;
+}
+
+.topBarInMenuCell .widget_search {
+    margin-top: -4px;
 }
 
 .mobile-social .btIcoHolder {
     font-size: 20px;
+}
+
+.mobile-social .btIcoHolder::before {
+    font-size: 20px;
+    color: #f2c158 !important;
+}
+
+.mobile-social .btIconWidgetIcon {
+    color: #f2c158 !important;
+}
+
+.mobile-social .btIconWidgetIcon:hover .btIcoHolder::before {
+    color: #fff !important;
+}
+
+.mobile-social .btIconWidgetIcon:hover .phone-designer {
+    color: #fff !important;
 }
 
 .GoTop {
@@ -19943,6 +19965,9 @@ em {
     .mobile-social {
         display: inline-block;
     }
+    .lang-select-menu-wrapper .sub-menu {
+        top: 100% !important;
+    }
     .mobile-language {
         visibility: visible;
     }
@@ -20068,8 +20093,11 @@ em {
     .bublik-position-2 {
         right: -60px;
     }
-    .phone-designer-mobile {
+    .phone-designer-mobile, .lang-description {
         display: none;
+    }
+    .btBtn {
+        padding: 1.2em 1.6em !important;
     }
     .about-type {
         max-width: 1140px !important;
@@ -20661,3 +20689,107 @@ em {
         transform: rotate(-45deg);
     }
 }
+
+.mobile-social .topBarInMenu .btIconWidgetIcon {
+    color: #f2c158 !important;
+}
+
+.mobile-social .topBarInMenu .btIconWidgetIcon .btIcoHolder::before {
+    color: #f2c158 !important;
+}
+
+.mobile-social .topBarInMenu .btIconWidgetIcon:hover .btIcoHolder::before {
+    color: #fff !important;
+}
+
+.mobile-social .topBarInMenu .btIconWidgetIcon:hover .phone-designer {
+    color: #fff !important;
+}
+
+.topBarInMenu .btIconWidgetIcon {
+    color: #f2c158 !important;
+}
+
+.topBarInMenu .btIconWidgetIcon .btIcoHolder::before {
+    color: #f2c158 !important;
+}
+
+.topBarInMenu .btIconWidgetIcon:hover .btIcoHolder::before {
+    color: #fff !important;
+}
+
+.topBarInMenu .btIconWidgetIcon:hover .phone-designer {
+    color: #fff !important;
+}
+
+.btMenuVertical.btLightSkin .menuPort {
+    background-color: #132538;
+}
+
+.btMenuVertical.btLightSkin .menuPort a, .btMenuVertical.btLightSkin .menuPort .subToggler, .btLightSkin .menuPort .btCloseVertical {
+    color: #fff !important;
+}
+
+.btMenuVertical.btLightSkin .menuPort .current-page-ancestor a {
+    color: #f2c158 !important;
+}
+
+.btMenuVertical.btLightSkin .menuPort span {
+    color: #fff !important;
+}
+
+.reservation {
+    border: 2px solid #f2c158 !important;
+    color: #fff !important;
+    background-color: #132538 !important;
+}
+.reservation span {
+    color: #fff !important;
+}
+.reservation:hover {
+    background-color: #132538 !important;
+}
+
+body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) .mainHeader .topBarInMenu .btIconWidgetIcon .btIcoHolder::before {
+    color: #333 !important;
+}
+
+body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) .mainHeader .topBarInMenu .btIconWidgetIcon .phone-designer {
+    color: #333 !important;
+}
+
+body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) .mainHeader .topBarInMenu .btIconWidgetIcon:hover .btIcoHolder::before {
+    color: #f2c158 !important;
+}
+
+body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) .mainHeader .topBarInMenu .btIconWidgetIcon:hover .phone-designer {
+    color: #f2c158 !important;
+}
+
+.lang-select-menu-wrapper .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    z-index: 99;
+}
+
+.widget_search {
+    margin-left: 0.5em !important;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+ }
+
+ .lang-select-menu-wrapper:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+ }
+
+ .btBox ul li, .btCustomMenu ul li, .btTopBox ul li {
+    padding: 0.2em 0 !important;
+ }
+

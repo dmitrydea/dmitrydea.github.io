@@ -272,7 +272,7 @@ bt_enquire.sizes = {};
 
 		/* Load enquire */
 
-		var responsiveResolution = '1023';
+		var responsiveResolution = '1024';
 		
 		var is_vertical = false;
 		
