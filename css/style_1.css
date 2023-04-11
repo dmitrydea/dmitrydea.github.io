@@ -20831,3 +20831,8 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
     padding: 0 !important;
 }
 
+.eight-includes .sIcon img {
+    width: 64px;
+    max-width: 64px !important;
+}
+
