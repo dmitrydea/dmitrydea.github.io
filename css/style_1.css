@@ -20882,9 +20882,45 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
     background-color: rgba(19,37,56,0.75) !important;
 }
 
+#reservationData {
+    position: relative;
+}
+
 #reservationData .footer {
     text-align: center !important;
     margin-top: 10px;
+}
+
+.eight-form-answer {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    border-radius: 20px;
+    top: 0;
+    width: 98%;
+    height: 100%;
+    padding: 20px 10px 10px 10px;
+}
+
+.eight-form-answer > div {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.eight-form-answer > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.eight-form-answer-icon {
+    margin-bottom: 10px;
+}
+
+.eight-form-answer-icon i {
+    font-size: 30px;
 }
 
 .servicesItem > div:first-child {
@@ -20894,4 +20930,15 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
 .servicesItem > div:last-child {
     flex-grow: 1;
     padding-left: 15px;
+}
+
+.eight-error {
+    color: red;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.eight-error-input {
+    border: 1px red solid !important;
 }

@@ -169,6 +169,22 @@
 			
 		}
 
+		$('input[name="number"]').keyup(function(e)
+    	{
+			if (/\+?\D/g.test(this.value))
+			{
+				this.value = this.value.replace(/\D/g, '');
+			}
+		});
+
+		$(".multiple-item-eight span").click(function(event) {
+			event.preventDefault();
+			var price = $(this).data("price");
+			$(this).parent().find("span").removeClass("active");
+			$(this).addClass("active");
+			$(this).parent().parent().parent().parent().find(".multiple-item-eight-price").text(price);
+		});
+
 		$("#reservation_").click(function(event) {
 			event.preventDefault();
 			$("#reservationData").modal({
