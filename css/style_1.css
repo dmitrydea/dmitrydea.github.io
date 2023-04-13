@@ -20041,12 +20041,43 @@ em {
     .eight-animate-eight-meet-mini i {
         font-size: 22px !important;
     }
+    .eight-country {
+        text-align: right !important;
+    }
+    .eight-country-section {
+        overflow: visible !important;
+    }
     .eight-country > span {
         font-size: 25px !important;
     }
+    .eight-country > span:nth-child(5) {
+        margin-right: 0 !important;
+    }
+    .tooltip-bottom  span {
+        bottom: -135% !important;
+        top: auto !important;
+    }
+    .eight-country > span:hover span {
+        display: block !important;
+    }
     .eight-country span span {
         display: none !important;
+        position: absolute;
+        z-index: 9;
+        margin-left: -5px;
+        border-radius: 10px;
+        font-size: 18px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: -110%;
+        display: block;
+        background-color: #000;
+        padding: 0 10px
     }
+    
     .eight-big .eight-animate-bagel {
         top: -30px !important;
         left: 30% !important;
@@ -20462,13 +20493,23 @@ em {
     align-items: center !important;
   }
 
+  .eight-country {
+    text-align: center;
+  }
+
   .eight-country > span {
     margin-right: 20px;
     font-size: 18px;
+    position: relative;
   }
 
   .eight-country > span i {
     margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  .eight-country > span span {
+    vertical-align: middle;
   }
 
   .eight-country span:last-child {
@@ -20846,3 +20887,11 @@ body.btMenuHorizontal.btStickyHeaderActive.btLightSkin:not(.btAccentDarkHeader) 
     margin-top: 10px;
 }
 
+.servicesItem > div:first-child {
+    flex-grow: 0;
+}
+
+.servicesItem > div:last-child {
+    flex-grow: 1;
+    padding-left: 15px;
+}
